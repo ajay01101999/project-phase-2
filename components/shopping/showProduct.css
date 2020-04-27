@@ -1,0 +1,23 @@
+.one{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    width: 1236px;
+    height: 673px;
+    background: white;
+    z-index: 0;
+}
+.one img{
+    margin: 50px;
+    width: 430px;
+    height: 410px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ul1{
+    position: absolute;
+    top: 60px;
+    left: 490px;
+    list-style: none;
+}

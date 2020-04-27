@@ -1,0 +1,38 @@
+.all{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    width: 1236px;
+    height: 673px;
+    background: linear-gradient(to right, #0e1011, #414345);
+    z-index: 0;
+    overflow: auto;
+}
+.allproducts{
+    width: 365px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.allproducts img{
+    width: 210px;
+    padding: 15px;
+    height: 200px;
+}
+.allproducts span{
+    font-size: 13px;
+}
+.allproducts:hover{
+    box-shadow: 1px 1px 6px 1px white;
+}
+.prices{
+    font-size: 20px;
+    margin-left: 10px;
+    color: orangered;
+}

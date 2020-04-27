@@ -1,0 +1,285 @@
+.mainpage{
+    background: linear-gradient(to right, #232526, #414345);
+    width: 100%;
+    height: 753px;
+    overflow: hidden;
+}
+.shopping{
+    width: 330px;
+    height: 240px;
+    background: linear-gradient(to right, #141e30, #243b55);
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: 210px;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.shopping i{
+    font-size: 140px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+}
+.streaming{
+    width: 330px;
+    height: 240px;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+    left: 590px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    display: inline-block;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.streaming i{
+    font-size: 140px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+}
+.chat{
+    width: 330px;
+    height: 240px;
+    position: absolute;
+    border-radius: 10px;
+    top: 140px;
+    left: 960px;
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    display: inline-block;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.chat i{
+    font-size: 140px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 95px;
+    position: absolute;
+}
+.sports{
+    width: 330px;
+    height: 240px;
+    position: absolute;
+    top: 420px;
+    left: 210px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #a8c0ff, #3f2b96);
+    display: inline-block;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.sports i{
+    font-size: 140px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 95px;
+    position: absolute;
+}
+.stats{
+    width: 330px;
+    height: 240px;
+    position: absolute;
+    top: 420px;
+    left: 590px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    display: inline-block;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.stats i{
+    font-size: 140px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 105px;
+    position: absolute;
+}
+.tasks{
+    width: 330px;
+    height: 240px;
+    position: absolute;
+    top: 420px;
+    left: 960px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    display: inline-block;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.tasks i{
+    font-size: 140px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 95px;
+    position: absolute;
+}
+.tasks i:hover{
+    font-size: 150px;
+    transition: all 0.5s ease-out;
+    color: lightslategray;
+}
+.stats i:hover{
+    font-size: 150px;
+    transition: all 0.5s ease-out;
+    color: lightslategray;
+}
+.sports i:hover{
+    font-size: 150px;
+    transition: all 0.5s ease-out;
+    color: lightslategray;
+}
+.chat i:hover{
+    font-size: 150px;
+    transition: all 0.5s ease-out;
+    color: lightslategray;
+}
+.streaming i:hover{
+    font-size: 150px;
+    transition: all 0.5s ease-out;
+    color: lightslategray;
+}
+.shopping i:hover{
+    font-size: 150px;
+    transition: all 0.5s ease-out;
+    color: lightslategray;
+}
+.hide{
+    transform: translateX(-300vh);
+    transition: all 2s ease;
+}
+.show{
+    transform: translateX(0);
+    transition: all 2s ease;
+}
+.hide1{
+    transform: translateX(300vh);
+    transition: all 2s ease;
+}
+.more{
+    width: 900px;
+    height: 520px;
+    position: absolute;
+    top: 140px;
+    left: 210px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    display: inline-block;
+    box-shadow: 0px 1px 12px 0px black;
+}
+.more span{
+    font-size: 30px;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+}
+.more p{
+    position: absolute;
+    top: -55px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+}
+.left{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.left i{
+    font-size: 40px;
+    color: white;
+}
+.left i:hover{
+    color: #0771e9;
+}
+.right{
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.right i:hover{
+    color: #0771e9;
+}
+.right i{
+    font-size: 40px;
+    color: white;
+}
+.search1{
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 160px;
+}
+.search2{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+}
+.search3{
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+}
+.search4{
+    margin-top: 20px;
+    margin-left: 125px;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+}
+.search5{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+}
+.addevents h1{
+    padding: 20px;
+}
+.text1{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.text2{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.text3{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.text4{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.text5{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.events{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+.allevents{
+    background-color: white;
+    width: 370px;
+    height: 330px;
+    border-radius: 10px;
+    overflow: scroll;
+}

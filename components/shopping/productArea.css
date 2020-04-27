@@ -1,0 +1,15 @@
+.productArea{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    width: 1236px;
+    height: 673px;
+    background: linear-gradient(to right, #0e1011, #414345);
+    z-index: 0;
+    overflow: auto;
+}
+.size{
+    margin-top: 10px;
+    width: 100%;
+    height: 460px;
+}
